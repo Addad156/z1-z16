@@ -1,0 +1,34 @@
+<html>
+ <body>
+ <textarea cols="90" rows="24">
+ <html>
+ <body>
+ <div style="color:green;font-size:50px;">
+ <script language="JavaScript">
+// adam wojciechowski 10.10.2025
+// Zadanie 11
+  var D1_woj = parseInt(prompt("Podaj pierwszy dzień stycznia (D1_woj):"));
+  var G1_woj = parseInt(prompt("Podaj godzinę pierwszego dnia (G1_woj):"));
+  var D2_woj = parseInt(prompt("Podaj drugi dzień stycznia (D2_woj):"));
+  var G2_woj = parseInt(prompt("Podaj godzinę drugiego dnia (G2_woj):"));
+
+  var sekundy = ((D1_woj - D2_woj) * 24 + (G1_woj - G2_woj)) * 3600;
+
+  document.write("Ilość sekund = " + sekundy + " sekund");
+ function okno_zamknij_wojciechowski()
+ {
+ window.close()
+ }
+ </script>
+ </div>
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_wojciechowski()"/>
+ </body>
+ </html>
+ </textarea>
+ </body>
+</html>
+
+
+
+
+
